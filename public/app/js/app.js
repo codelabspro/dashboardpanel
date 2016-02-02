@@ -1,14 +1,14 @@
-'use strict';
-class Foo {
-	constructor(name) {
-		this.name = name;
-	}
+import Ractive from 'ractive';
+import template from '../views/app.html';
 
-	sayHi() {
-		alert(`Hi ${this.name}!!!`);
+let App = new Ractive({
+	el: '#app',
+	template: template,
+	data: {
+		name: 'DashboardPanel'
 	}
-}
+});
 
-let bar = new Foo('DashboardPanel');
-bar.sayHi();
+export default App;
+
 
