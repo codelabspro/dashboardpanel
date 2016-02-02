@@ -1,6 +1,10 @@
 dashboardpanel
 --------------
 
+Meta
+----
+
+npm init
 
 Links
 ------
