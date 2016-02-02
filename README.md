@@ -20,6 +20,10 @@ to webpack.config.js
 Start server using
 npm start
 
+Currently at this step :
+
+http://paquitosoftware.com/ractive-js-tutorial-creating-the-barebones/
+
 
 Links
 ------
